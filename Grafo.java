@@ -4,12 +4,15 @@ import java.util.ArrayList;
 public class Grafo {
 
 	private ArrayList<Nodo> nodos;
-	private ArrayList<Arista> aristas;
 	private int nNodos;
 	private int nAristas;
 	
 	public Grafo(int nNodos, int nAristas) {
 		//Constructor para grafo aleatorio
+	}
+
+	public void addNodo(Nodo nodo) {
+		nodos.add(nodo);
 	}
 	
 	public ArrayList<Nodo> getNodos() {
@@ -18,14 +21,6 @@ public class Grafo {
 
 	public void setNodos(ArrayList<Nodo> nodos) {
 		this.nodos = nodos;
-	}
-
-	public ArrayList<Arista> getAristas() {
-		return aristas;
-	}
-
-	public void setAristas(ArrayList<Arista> aristas) {
-		this.aristas = aristas;
 	}
 
 	public int getnNodos() {
@@ -43,6 +38,4 @@ public class Grafo {
 	public void setnAristas(int nAristas) {
 		this.nAristas = nAristas;
 	}
-	
-	
 }

@@ -37,8 +37,8 @@ public class Arista {
  
     @Override
     public String toString() {
-        return "\n Origen= " + this.origen.getNombre() + "\n Destino= " + 
-        		this.destino.getNombre() + "\n Distancia= " + this.distancia;
+        return "\n Ciudades: " + this.origen.getNombre() + ", " + 
+        		this.destino.getNombre() + " / Distancia= " + this.distancia;
     }
  
 }

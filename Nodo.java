@@ -28,6 +28,6 @@ public class Nodo {
  
     @Override
     public String toString() {
-        return "\n Ciudad= " + nombre + "\n Aristas= " + aristas + "\n";
+        return "Ciudad= " + nombre;
     }
 }
